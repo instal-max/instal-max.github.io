@@ -1,39 +1,39 @@
 # InstalMax - React Website
 
-A modern, mobile-friendly React website for a central heating installation and furnace controller repair company, designed for deployment to GitHub Pages.
+A modern, mobile-friendly React website for InstalMax, a central heating installation and furnace controller repair company serving Wieluń and surrounding areas in Poland.
 
 ## 🚀 Features
 
 - ⚛️ **React 18** with TypeScript
 - 📱 **Fully Responsive** (mobile-first approach)
 - 🎨 **Modern Design** with smooth animations
-- ♿ **Accessible** with proper ARIA labels and keyboard navigation
+- ♿ **Accessible** with proper ARIA labels
 - 🔧 **Component-based** architecture
 - ⚡ **Fast Performance** with optimized builds
-- 📧 **Interactive Contact Form** with validation
 - 🧭 **Smooth Scrolling Navigation**
-- 🎯 **SEO Optimized**
+- 🎯 **SEO Optimized** for local Wieluń keywords
+- 🌍 **Polish Language** with local optimization
+- 🔥 **Custom Favicon** with fire icon branding
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 18, TypeScript
-- **Styling**: CSS3 (Grid, Flexbox, Custom Properties)
+- **Styling**: CSS3 (Grid, Flexbox, CSS Variables)
 - **Icons**: Font Awesome 6
 - **Fonts**: Google Fonts (Inter)
 - **Build Tool**: Create React App
-- **Deployment**: GitHub Pages
+- **Deployment**: GitHub Pages with GitHub Actions
 
 ## 🏗️ Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Navbar.tsx/.css      # Navigation bar with mobile menu
+│   ├── Navbar.tsx/.css      # Navigation with mobile menu
 │   ├── Hero.tsx/.css        # Hero section with CTA
 │   ├── Services.tsx/.css    # Services showcase
 │   ├── Features.tsx/.css    # Company features
-│   ├── About.tsx/.css       # About section with stats
-│   ├── Contact.tsx/.css     # Contact form and info
+│   ├── About.tsx/.css       # About section
 │   ├── Footer.tsx/.css      # Footer with links
 │   └── ScrollToTop.tsx/.css # Scroll to top button
 ├── App.tsx/.css             # Main app component
@@ -48,86 +48,43 @@ Runs the app in development mode. Open [http://localhost:3000](http://localhost:
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
 ### `npm run deploy`
 
 Deploys the built app to GitHub Pages.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-
 ## 🌐 Deployment to GitHub Pages
 
-### Method 1: Automatic Deployment (Recommended)
+The project has automatic deployment configured via GitHub Actions:
 
-The project includes GitHub Actions workflow for automatic deployment:
+1. **Code is automatically deployed** after each push to `main` branch
+2. **Live site available at**: `https://instal-max.github.io`
+3. **GitHub Actions** builds and deploys automatically
 
-1. **Update homepage in package.json**:
-
-```json
-{
-  "homepage": "https://YOUR_USERNAME.github.io/instal-max"
-}
-```
-
-2. **Push to GitHub**:
-
-```bash
-git add .
-git commit -m "Initial commit"
-git push origin main
-```
-
-3. **Enable GitHub Pages**:
-   - Go to repository Settings > Pages
-   - Source: GitHub Actions
-   - The workflow will automatically deploy on push to main
-
-### Method 2: Manual Deployment
+### Manual Deployment
 
 ```bash
 npm run deploy
 ```
 
-## 🎨 Customization
+## 🎨 Company Information
 
-### Company Information
+Current settings:
 
-Update the following in the component files:
+- **Company Name**: InstalMax
+- **Phone**: +48 668 152 243
+- **Service Area**: Wieluń and surrounding areas
+- **Services**: Central heating installation, controller repairs, boiler replacement
 
-- Company name and branding in `Navbar.tsx` and `Footer.tsx`
-- Contact information in `Contact.tsx` and `Footer.tsx`
-- Service descriptions in `Services.tsx`
-- About section content in `About.tsx`
-
-### Colors and Styling
+## 🎨 Colors and Styling
 
 Main colors used throughout the app:
 
 - Primary: `#ff6b35` (orange)
-- Secondary: `#667eea` to `#764ba2` (gradient)
 - Text: `#333` (dark gray)
 - Background: `#f8f9fa` (light gray)
-
-### Contact Form Integration
-
-To implement real form submission, you can:
-
-1. **Use Formspree** (Easy):
-
-```tsx
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-2. **Use EmailJS** (Client-side):
-
-```bash
-npm install @emailjs/browser
-```
-
-3. **Backend Integration** with your API endpoint
+- Icon gradient: `linear-gradient(135deg, #ff6b35, #f7931e)`
 
 ## 📱 Responsive Design
 
@@ -136,15 +93,6 @@ The website is fully responsive with breakpoints:
 - Mobile: < 480px
 - Tablet: 481px - 768px
 - Desktop: > 768px
-
-## ♿ Accessibility Features
-
-- Semantic HTML structure
-- ARIA labels for interactive elements
-- Keyboard navigation support
-- Focus indicators
-- High contrast mode support
-- Screen reader friendly
 
 ## 🌍 Browser Support
 
@@ -159,7 +107,7 @@ The website is fully responsive with breakpoints:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/instal-max.git
+git clone https://github.com/instal-max/instal-max.github.io.git
 cd instal-max
 ```
 
@@ -175,12 +123,8 @@ npm install
 npm start
 ```
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
-**Live Demo**: Your site will be available at `https://YOUR_USERNAME.github.io/instal-max/` after deployment.
+**Live Demo**: https://instal-max.github.io
 
 Made with ❤️ using React and TypeScript
