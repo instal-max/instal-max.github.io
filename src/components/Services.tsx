@@ -52,10 +52,10 @@ const Services: React.FC = () => {
     <section id="services" className="services">
       <div className="container">
         <div className="section-header">
-          <h2>Our Services</h2>
+          <h2>Nasze usługi</h2>
           <p>
-            Comprehensive heating solutions for residential and commercial
-            properties
+            Kompleksowe rozwiązania grzewcze dla nieruchomości mieszkalnych i
+            komercyjnych
           </p>
         </div>
         <div className="services-grid">

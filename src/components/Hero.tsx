@@ -18,18 +18,18 @@ const Hero: React.FC = () => {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1>Expert Central Heating & Furnace Controller Services</h1>
+          <h1>Usługi eksperta w zakresie centralnego ogrzewania</h1>
           <p>
-            Professional installation, repair, and maintenance of central
-            heating systems and furnace controllers. Reliable service you can
-            trust.
+            Profesjonalny montaż, naprawa i konserwacja systemów centralnego
+            ogrzewania i sterowników pieców. Niezawodna usługa, której możesz
+            zaufać.
           </p>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={scrollToContact}>
               Get Free Quote
             </button>
             <a href="tel:+1234567890" className="btn btn-secondary">
-              <i className="fas fa-phone"></i> Call Now
+              <i className="fas fa-phone"></i> Zadzwoń teraz
             </a>
           </div>
         </div>
