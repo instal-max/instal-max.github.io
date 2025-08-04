@@ -49,6 +49,15 @@
   color: #ff6b35;
 }
 
+/* Ensure phone link matches footer text color */
+.footer-section a[href^="tel"] {
+  color: #ccc;
+}
+
+.footer-section a[href^="tel"]:hover {
+  color: #ff6b35;
+}
+
 .footer-section button {
   background: none;
   border: none;

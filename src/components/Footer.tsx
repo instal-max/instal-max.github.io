@@ -23,32 +23,32 @@ const Footer: React.FC = () => {
               <i className="fas fa-fire"></i> InstalMax
             </h3>
             <p>
-              Twój zaufany partner w zakresie centralnego ogrzewania Wieluń, 
-              naprawy sterowników Wieluń i wymiany pieca Wieluń. Jakość pracy, 
-              niezawodny serwis, konkurencyjne ceny.
+              Twój zaufany partner w zakresie centralnego ogrzewania, naprawy
+              sterowników i wymiany pieca. Jakość pracy, niezawodny serwis,
+              konkurencyjne ceny.
             </p>
           </div>
           <div className="footer-section">
-            <h4>Usługi w Wieluniu</h4>
+            <h4>Usługi</h4>
             <ul>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Centralne ogrzewanie Wieluń
+                  Centralne ogrzewanie
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Naprawa sterowników Wieluń
+                  Naprawa sterowników
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Wymiana pieca Wieluń
+                  Wymiana pieca
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Serwis grzewczy Wieluń
+                  Serwis grzewczy
                 </button>
               </li>
             </ul>
@@ -57,13 +57,16 @@ const Footer: React.FC = () => {
             <h4>Informacje kontaktowe</h4>
             <ul>
               <li>
-                <i className="fas fa-phone"></i> +48 668 152 243
+                <i className="fas fa-phone"></i>{" "}
+                <a href="tel:+48668152243">+48 668 152 243</a>
               </li>
               <li>
                 <i className="fas fa-envelope"></i> andrzejlyczko@gmail.com
               </li>
-                            <li>
-                <i className="fas fa-map-marker-alt"></i> Wieluń i okolice
+              <li>
+                <i className="fas fa-map-marker-alt"></i> Rychłowice 24A
+                <br />
+                98-300 Wieluń
               </li>
             </ul>
           </div>

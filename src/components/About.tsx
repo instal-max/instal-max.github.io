@@ -10,22 +10,22 @@ const About: React.FC = () => {
             <h2>O firmie InstalMax - Wieluń</h2>
             <p>
               Dzięki ponad 30-letniemu doświadczeniu w branży grzewczej,
-              InstalMax świadczy usługi centralnego ogrzewania w Wieluniu i okolicach. 
-              Jesteśmy zaufanym dostawcą usług montażu, naprawy sterowników i wymiany 
-              pieców w regionie wieluńskim. Wnosimy wiedzę specjalistyczną, 
-              niezawodność i zaangażowanie do każdego projektu.
+              InstalMax świadczy usługi centralnego ogrzewania w Wieluniu i
+              okolicach. Jesteśmy zaufanym dostawcą usług montażu, naprawy
+              sterowników i wymiany pieców w regionie wieluńskim. Wnosimy wiedzę
+              specjalistyczną, niezawodność i zaangażowanie do każdego projektu.
             </p>
             <p>
-              Specjalizujemy się w kompleksowych rozwiązaniach grzewczych dla 
-              mieszkańców Wielunia - od prostych napraw sterowników po kompletne 
-              instalacje centralnego ogrzewania i wymianę pieców. Nasze zaangażowanie 
-              w jakość wykonania i zadowolenie klientów uczyniło nas preferowanym 
-              wyborem w zakresie usług grzewczych w Wieluniu.
+              Specjalizujemy się w kompleksowych rozwiązaniach grzewczych - od
+              prostych napraw sterowników po kompletne instalacje centralnego
+              ogrzewania i wymianę pieców. Nasze zaangażowanie w jakość
+              wykonania i zadowolenie klientów uczyniło nas preferowanym wyborem
+              w zakresie usług grzewczych.
             </p>
             <div className="stats">
               <div className="stat">
                 <h3>500+</h3>
-                <p>Projektów w Wieluniu</p>
+                <p>Projektów</p>
               </div>
               <div className="stat">
                 <h3>30+</h3>

@@ -14,11 +14,11 @@ const Services: React.FC = () => {
       icon: "fas fa-tools",
       title: "Centralne Ogrzewanie Wieluń",
       description:
-        "Kompletny montaż systemu centralnego ogrzewania w Wieluniu z nowoczesnym, energooszczędnym sprzętem i profesjonalną instalacją.",
+        "Kompletny montaż systemu centralnego ogrzewania z nowoczesnym, energooszczędnym sprzętem i profesjonalną instalacją.",
       features: [
-        "Montaż kotła Wieluń",
+        "Montaż kotła",
         "Systemy grzejnikowe",
-        "Ogrzewanie podłogowe Wieluń",
+        "Ogrzewanie podłogowe",
         "Konfiguracja termostatu",
       ],
     },
@@ -26,9 +26,9 @@ const Services: React.FC = () => {
       icon: "fas fa-wrench",
       title: "Naprawa Sterowników Wieluń",
       description:
-        "Ekspercka diagnostyka i naprawa sterowników pieców w Wieluniu, zapewniająca optymalną wydajność i efektywność energetyczną.",
+        "Ekspercka diagnostyka i naprawa sterowników pieców, zapewniająca optymalną wydajność i efektywność energetyczną.",
       features: [
-        "Diagnostyka sterowników Wieluń",
+        "Diagnostyka sterowników",
         "Naprawa płyt głównych",
         "Wymiana czujników",
         "Programowanie i kalibracja",
@@ -36,9 +36,9 @@ const Services: React.FC = () => {
     },
     {
       icon: "fas fa-fire",
-      title: "Wymiana Pieca Wieluń",
+      title: "Wymiana Pieca C.O. Wieluń",
       description:
-        "Profesjonalna wymiana pieca w Wieluniu, montaż nowoczesnych kotłów gazowych, elektrycznych i na paliwa stałe.",
+        "Profesjonalna wymiana pieca, montaż nowoczesnych kotłów gazowych, elektrycznych i na paliwa stałe.",
       features: [
         "Wymiana kotła gazowego",
         "Montaż pieca elektrycznego",
@@ -52,7 +52,7 @@ const Services: React.FC = () => {
     <section id="services" className="services">
       <div className="container">
         <div className="section-header">
-          <h2>Nasze usługi w Wieluniu</h2>
+          <h2>Nasze usługi</h2>
           <p>
             Kompleksowe rozwiązania grzewcze dla mieszkańców Wielunia i okolic
           </p>

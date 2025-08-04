@@ -11,24 +11,25 @@ const Features: React.FC = () => {
   const features: FeatureItem[] = [
     {
       icon: "fas fa-clock",
-      title: "Serwis awaryjny 24/7 Wieluń",
+      title: "Serwis awaryjny",
       description:
-        "Całodobowe naprawy awaryjne w Wieluniu i okolicach, gdy najbardziej ich potrzebujesz",
+        "Całodobowe naprawy awaryjne, gdy najbardziej ich potrzebujesz",
     },
     {
       icon: "fas fa-certificate",
       title: "Certyfikowani technicy",
-      description: "Specjaliści od systemów grzewczych obsługujący Wieluń",
+      description: "Specjaliści od systemów grzewczych",
     },
     {
       icon: "fas fa-money-bill-wave",
-      title: "Konkurencyjne ceny Wieluń",
-      description: "Uczciwe, przejrzyste ceny na usługi grzewcze w Wieluniu bez ukrytych opłat",
+      title: "Konkurencyjne ceny",
+      description:
+        "Uczciwe, przejrzyste ceny na usługi grzewcze bez ukrytych opłat",
     },
     {
       icon: "fas fa-thumbs-up",
       title: "Gwarancja satysfakcji",
-      description: "100% gwarancja satysfakcji na prace w Wieluniu",
+      description: "100% gwarancja satysfakcji na prace",
     },
   ];
 
