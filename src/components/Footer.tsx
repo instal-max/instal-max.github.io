@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 InstalMax. Wszelkie prawa zastrzeżone.</p>
+          <p>&copy; {new Date().getFullYear()} InstalMax. Wszelkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>
