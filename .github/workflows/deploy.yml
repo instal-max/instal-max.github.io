@@ -42,11 +42,11 @@ jobs:
           # Configure git
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+
           # Copy build files to root
           cp -r build/* .
           cp build/.* . 2>/dev/null || true
-          
+
           # Add and commit
           git add .
           git commit -m "Deploy built files to main branch" || exit 0
