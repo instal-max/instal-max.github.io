@@ -10,6 +10,19 @@
 
 # production
 /build
+/static
+
+# build artifacts (GitHub Pages deployment creates these in root)
+/asset-manifest.json
+/favicon.ico
+/favicon.svg
+/favicon-32x32.png
+/logo192.png
+/logo512.png
+/manifest.json
+/robots.txt
+/sitemap.xml
+/index.html
 
 # misc
 .DS_Store
