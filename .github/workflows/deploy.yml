@@ -30,24 +30,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages (gh-pages branch)
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           force_orphan: true
-
-      - name: Deploy to main branch root (for username.github.io)
-        run: |
-          # Configure git
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Copy build files to root
-          cp -r build/* .
-          cp build/.* . 2>/dev/null || true
-
-          # Add and commit
-          git add .
-          git commit -m "Deploy built files to main branch" || exit 0
-          git push origin main
+          cname: false
