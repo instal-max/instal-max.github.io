@@ -51,7 +51,7 @@
 
 /* Ensure phone link matches footer text color */
 .footer-section a[href^="tel"] {
-  color: #ccc;
+  color: #fff;
 }
 
 .footer-section a[href^="tel"]:hover {

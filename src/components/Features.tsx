@@ -12,8 +12,7 @@ const Features: React.FC = () => {
     {
       icon: "fas fa-clock",
       title: "Serwis awaryjny",
-      description:
-        "Całodobowe naprawy awaryjne, gdy najbardziej ich potrzebujesz",
+      description: "Naprawy awaryjne, gdy najbardziej ich potrzebujesz",
     },
     {
       icon: "fas fa-certificate",
