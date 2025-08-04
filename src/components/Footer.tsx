@@ -24,43 +24,9 @@ const Footer: React.FC = () => {
             </h3>
             <p>
               Twój zaufany partner w zakresie centralnego ogrzewania i
-              sterowników pieców. Jakość pracy, niezawodny serwis,
-              konkurencyjne ceny.
+              sterowników pieców. Jakość pracy, niezawodny serwis, konkurencyjne
+              ceny.
             </p>
-            <div className="social-links">
-              <a
-                href="https://facebook.com"
-                aria-label="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-facebook"></i>
-              </a>
-              <a
-                href="https://twitter.com"
-                aria-label="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a
-                href="https://linkedin.com"
-                aria-label="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a
-                href="https://instagram.com"
-                aria-label="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-instagram"></i>
-              </a>
-            </div>
           </div>
           <div className="footer-section">
             <h4>Usługi</h4>
@@ -91,14 +57,14 @@ const Footer: React.FC = () => {
             <h4>Informacje kontaktowe</h4>
             <ul>
               <li>
-                <i className="fas fa-phone"></i> +1 (555) 123-4567
+                <i className="fas fa-phone"></i> +48 668 152 243
               </li>
               <li>
-                <i className="fas fa-envelope"></i> info@instalmax.com
+                <i className="fas fa-envelope"></i> andrzejlyczko@gmail.com
               </li>
               <li>
-                <i className="fas fa-map-marker-alt"></i> ul. Główna 123, Twoje
-                Miasto
+                <i className="fas fa-map-marker-alt"></i> Rychłowice 24A,
+                <br /> 98-300 Wieluń
               </li>
             </ul>
           </div>
@@ -106,9 +72,8 @@ const Footer: React.FC = () => {
             <h4>Godziny pracy</h4>
             <ul>
               <li>Poniedziałek - Piątek: 8:00 - 18:00</li>
-              <li>Sobota: 9:00 - 16:00</li>
+              <li>Sobota: 8:00 - 16:00</li>
               <li>Niedziela: Tylko awarie</li>
-              <li>Serwis awaryjny: 24/7</li>
             </ul>
           </div>
         </div>

@@ -52,12 +52,6 @@ const Navbar: React.FC = () => {
           <button className="nav-link" onClick={() => scrollToSection("about")}>
             O nas
           </button>
-          <button
-            className="nav-link"
-            onClick={() => scrollToSection("contact")}
-          >
-            Kontakt
-          </button>
         </div>
         <div
           className={`nav-toggle ${isMenuOpen ? "active" : ""}`}

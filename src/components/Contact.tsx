@@ -105,7 +105,8 @@ const Contact: React.FC = () => {
         <div className="section-header">
           <h2>Skontaktuj się z nami</h2>
           <p>
-            Gotów na poprawę swojego systemu grzewczego? Skontaktuj się z nami w celu bezpłatnej konsultacji
+            Gotów na poprawę swojego systemu grzewczego? Skontaktuj się z nami w
+            celu bezpłatnej konsultacji
           </p>
         </div>
         <div className="contact-content">
@@ -116,7 +117,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3>Telefon</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+48 668 152 243</p>
               </div>
             </div>
             <div className="contact-item">
@@ -125,7 +126,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3>Email</h3>
-                <p>info@instalmax.com</p>
+                <p>andrzejlyczko@gmail.com</p>
               </div>
             </div>
             <div className="contact-item">

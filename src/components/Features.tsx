@@ -12,12 +12,13 @@ const Features: React.FC = () => {
     {
       icon: "fas fa-clock",
       title: "Serwis awaryjny 24/7",
-      description: "Całodobowe naprawy awaryjne, gdy najbardziej ich potrzebujesz",
+      description:
+        "Całodobowe naprawy awaryjne, gdy najbardziej ich potrzebujesz",
     },
     {
       icon: "fas fa-certificate",
       title: "Certyfikowani technicy",
-      description: "W pełni licencjonowani i certyfikowani specjaliści od systemów grzewczych",
+      description: "Specjalista od systemów grzewczych",
     },
     {
       icon: "fas fa-money-bill-wave",
@@ -27,7 +28,7 @@ const Features: React.FC = () => {
     {
       icon: "fas fa-thumbs-up",
       title: "Gwarancja satysfakcji",
-      description: "100% gwarancja satysfakcji na wszystkie nasze prace",
+      description: "100% satysfakcja",
     },
   ];
 
