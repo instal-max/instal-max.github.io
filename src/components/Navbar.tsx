@@ -35,9 +35,14 @@ const Navbar: React.FC = () => {
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         <div className="nav-logo">
-          <h2>
-            <i className="fas fa-fire"></i> InstalMax
-          </h2>
+          <button
+            onClick={() => scrollToSection("home")}
+            style={{ background: "none", border: "none", cursor: "pointer" }}
+          >
+            <h2>
+              <i className="fas fa-fire"></i> InstalMax
+            </h2>
+          </button>
         </div>
         <div className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
           <button className="nav-link" onClick={() => scrollToSection("home")}>
