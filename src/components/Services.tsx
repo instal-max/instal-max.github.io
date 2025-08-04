@@ -12,38 +12,38 @@ const Services: React.FC = () => {
   const services: ServiceItem[] = [
     {
       icon: "fas fa-tools",
-      title: "Central Heating Installation",
+      title: "Montaż centralnego ogrzewania",
       description:
-        "Complete central heating system installation with modern, energy-efficient equipment and professional setup.",
+        "Kompletny montaż systemu centralnego ogrzewania z nowoczesnym, energooszczędnym sprzętem i profesjonalną instalacją.",
       features: [
-        "Boiler installation",
-        "Radiator systems",
-        "Underfloor heating",
-        "Thermostat setup",
+        "Montaż kotła",
+        "Systemy grzejnikowe",
+        "Ogrzewanie podłogowe",
+        "Konfiguracja termostatu",
       ],
     },
     {
       icon: "fas fa-wrench",
-      title: "Furnace Controller Repair",
+      title: "Naprawa sterowników pieców",
       description:
-        "Expert diagnosis and repair of furnace controllers, ensuring optimal performance and energy efficiency.",
+        "Ekspercka diagnostyka i naprawa sterowników pieców, zapewniająca optymalną wydajność i efektywność energetyczną.",
       features: [
-        "Controller diagnostics",
-        "Circuit board repair",
-        "Sensor replacement",
-        "Programming & calibration",
+        "Diagnostyka sterowników",
+        "Naprawa płyt głównych",
+        "Wymiana czujników",
+        "Programowanie i kalibracja",
       ],
     },
     {
       icon: "fas fa-shield-alt",
-      title: "Maintenance & Service",
+      title: "Konserwacja i serwis",
       description:
-        "Regular maintenance services to keep your heating system running efficiently and prevent costly breakdowns.",
+        "Regularne usługi konserwacyjne, które utrzymują Twój system grzewczy w sprawności i zapobiegają kosztownym awariom.",
       features: [
-        "Annual servicing",
-        "Emergency repairs",
-        "System upgrades",
-        "Performance optimization",
+        "Serwis coroczny",
+        "Naprawy awaryjne",
+        "Modernizacja systemów",
+        "Optymalizacja wydajności",
       ],
     },
   ];

@@ -7,33 +7,33 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>About InstalMax</h2>
+            <h2>O firmie InstalMax</h2>
             <p>
-              With over 15 years of experience in the heating industry,
-              InstalMax has established itself as a trusted provider of central
-              heating and furnace controller services. Our team of certified
-              technicians brings expertise, reliability, and dedication to every
-              project.
+              Dzięki ponad 15-letniemu doświadczeniu w branży grzewczej,
+              InstalMax ugruntował swoją pozycję jako zaufany dostawca usług
+              centralnego ogrzewania i sterowników pieców. Nasz zespół
+              certyfikowanych techników wnosi wiedzę specjalistyczną,
+              niezawodność i zaangażowanie do każdego projektu.
             </p>
             <p>
-              We specialize in both residential and commercial heating
-              solutions, from simple repairs to complete system installations.
-              Our commitment to quality workmanship and customer satisfaction
-              has made us the preferred choice for heating services in the
-              region.
+              Specjalizujemy się w rozwiązaniach grzewczych zarówno dla
+              nieruchomości mieszkalnych, jak i komercyjnych, od prostych napraw
+              po kompletne instalacje systemów. Nasze zaangażowanie w jakość
+              wykonania i zadowolenie klientów uczyniło nas preferowanym
+              wyborem w zakresie usług grzewczych w regionie.
             </p>
             <div className="stats">
               <div className="stat">
                 <h3>500+</h3>
-                <p>Projects Completed</p>
+                <p>Zrealizowanych projektów</p>
               </div>
               <div className="stat">
                 <h3>15+</h3>
-                <p>Years Experience</p>
+                <p>Lat doświadczenia</p>
               </div>
               <div className="stat">
                 <h3>24/7</h3>
-                <p>Emergency Service</p>
+                <p>Serwis awaryjny</p>
               </div>
             </div>
           </div>

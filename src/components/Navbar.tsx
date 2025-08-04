@@ -41,22 +41,22 @@ const Navbar: React.FC = () => {
         </div>
         <div className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
           <button className="nav-link" onClick={() => scrollToSection("home")}>
-            Home
+            Strona główna
           </button>
           <button
             className="nav-link"
             onClick={() => scrollToSection("services")}
           >
-            Services
+            Usługi
           </button>
           <button className="nav-link" onClick={() => scrollToSection("about")}>
-            About
+            O nas
           </button>
           <button
             className="nav-link"
             onClick={() => scrollToSection("contact")}
           >
-            Contact
+            Kontakt
           </button>
         </div>
         <div

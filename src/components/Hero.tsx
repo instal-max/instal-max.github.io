@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={scrollToContact}>
-              Get Free Quote
+              Otrzymaj darmową wycenę
             </button>
             <a href="tel:+1234567890" className="btn btn-secondary">
               <i className="fas fa-phone"></i> Zadzwoń teraz

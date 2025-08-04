@@ -64,12 +64,12 @@ const Contact: React.FC = () => {
 
     // Validation
     if (!formData.name || !formData.email || !formData.service) {
-      showNotification("Please fill in all required fields.", "error");
+      showNotification("Proszę wypełnić wszystkie wymagane pola.", "error");
       return;
     }
 
     if (!isValidEmail(formData.email)) {
-      showNotification("Please enter a valid email address.", "error");
+      showNotification("Proszę podać prawidłowy adres email.", "error");
       return;
     }
 
@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       showNotification(
-        "Thank you! Your message has been sent. We'll get back to you soon.",
+        "Dziękujemy! Twoja wiadomość została wysłana. Wkrótce się z Tobą skontaktujemy.",
         "success"
       );
       setFormData({
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
       });
     } catch (error) {
       showNotification(
-        "Sorry, there was an error sending your message. Please try again.",
+        "Przepraszamy, wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
         "error"
       );
     } finally {
@@ -103,10 +103,9 @@ const Contact: React.FC = () => {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-header">
-          <h2>Get In Touch</h2>
+          <h2>Skontaktuj się z nami</h2>
           <p>
-            Ready to improve your heating system? Contact us for a free
-            consultation
+            Gotów na poprawę swojego systemu grzewczego? Skontaktuj się z nami w celu bezpłatnej konsultacji
           </p>
         </div>
         <div className="contact-content">
@@ -116,7 +115,7 @@ const Contact: React.FC = () => {
                 <i className="fas fa-phone"></i>
               </div>
               <div>
-                <h3>Phone</h3>
+                <h3>Telefon</h3>
                 <p>+1 (555) 123-4567</p>
               </div>
             </div>
@@ -134,11 +133,11 @@ const Contact: React.FC = () => {
                 <i className="fas fa-map-marker-alt"></i>
               </div>
               <div>
-                <h3>Address</h3>
+                <h3>Adres</h3>
                 <p>
-                  123 Main Street
+                  ul. Główna 123
                   <br />
-                  Your City, State 12345
+                  Twoje Miasto, 12-345
                 </p>
               </div>
             </div>
@@ -147,13 +146,13 @@ const Contact: React.FC = () => {
                 <i className="fas fa-clock"></i>
               </div>
               <div>
-                <h3>Hours</h3>
+                <h3>Godziny pracy</h3>
                 <p>
-                  Mon-Fri: 8AM-6PM
+                  Pon-Pt: 8:00-18:00
                   <br />
-                  Sat: 9AM-4PM
+                  Sob: 9:00-16:00
                   <br />
-                  Emergency: 24/7
+                  Awarie: 24/7
                 </p>
               </div>
             </div>
@@ -166,7 +165,7 @@ const Contact: React.FC = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  placeholder="Your Name *"
+                  placeholder="Twoje imię i nazwisko *"
                   required
                 />
               </div>
@@ -176,7 +175,7 @@ const Contact: React.FC = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="Your Email *"
+                  placeholder="Twój email *"
                   required
                 />
               </div>
@@ -186,7 +185,7 @@ const Contact: React.FC = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  placeholder="Your Phone"
+                  placeholder="Twój telefon"
                 />
               </div>
               <div className="form-group">
@@ -196,14 +195,14 @@ const Contact: React.FC = () => {
                   onChange={handleInputChange}
                   required
                 >
-                  <option value="">Select Service *</option>
+                  <option value="">Wybierz usługę *</option>
                   <option value="installation">
-                    Central Heating Installation
+                    Montaż centralnego ogrzewania
                   </option>
-                  <option value="repair">Furnace Controller Repair</option>
-                  <option value="maintenance">Maintenance Service</option>
-                  <option value="emergency">Emergency Repair</option>
-                  <option value="consultation">Free Consultation</option>
+                  <option value="repair">Naprawa sterownika pieca</option>
+                  <option value="maintenance">Serwis konserwacyjny</option>
+                  <option value="emergency">Naprawa awaryjna</option>
+                  <option value="consultation">Bezpłatna konsultacja</option>
                 </select>
               </div>
               <div className="form-group">
@@ -211,7 +210,7 @@ const Contact: React.FC = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder="Tell us about your heating needs..."
+                  placeholder="Opowiedz nam o swoich potrzebach grzewczych..."
                   rows={4}
                 />
               </div>
@@ -220,7 +219,7 @@ const Contact: React.FC = () => {
                 className="btn btn-primary"
                 disabled={isSubmitting}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? "Wysyłanie..." : "Wyślij wiadomość"}
               </button>
             </form>
           </div>

@@ -23,8 +23,9 @@ const Footer: React.FC = () => {
               <i className="fas fa-fire"></i> InstalMax
             </h3>
             <p>
-              Your trusted partner for central heating and furnace controller
-              services. Quality work, reliable service, competitive prices.
+              Twój zaufany partner w zakresie centralnego ogrzewania i
+              sterowników pieców. Jakość pracy, niezawodny serwis,
+              konkurencyjne ceny.
             </p>
             <div className="social-links">
               <a
@@ -62,32 +63,32 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="footer-section">
-            <h4>Services</h4>
+            <h4>Usługi</h4>
             <ul>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Central Heating Installation
+                  Montaż centralnego ogrzewania
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Furnace Controller Repair
+                  Naprawa sterowników pieców
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Maintenance & Service
+                  Konserwacja i serwis
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Emergency Repairs
+                  Naprawy awaryjne
                 </button>
               </li>
             </ul>
           </div>
           <div className="footer-section">
-            <h4>Contact Info</h4>
+            <h4>Informacje kontaktowe</h4>
             <ul>
               <li>
                 <i className="fas fa-phone"></i> +1 (555) 123-4567
@@ -96,23 +97,23 @@ const Footer: React.FC = () => {
                 <i className="fas fa-envelope"></i> info@instalmax.com
               </li>
               <li>
-                <i className="fas fa-map-marker-alt"></i> 123 Main Street, Your
-                City
+                <i className="fas fa-map-marker-alt"></i> ul. Główna 123, Twoje
+                Miasto
               </li>
             </ul>
           </div>
           <div className="footer-section">
-            <h4>Business Hours</h4>
+            <h4>Godziny pracy</h4>
             <ul>
-              <li>Monday - Friday: 8AM - 6PM</li>
-              <li>Saturday: 9AM - 4PM</li>
-              <li>Sunday: Emergency Only</li>
-              <li>Emergency Service: 24/7</li>
+              <li>Poniedziałek - Piątek: 8:00 - 18:00</li>
+              <li>Sobota: 9:00 - 16:00</li>
+              <li>Niedziela: Tylko awarie</li>
+              <li>Serwis awaryjny: 24/7</li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 InstalMax. All rights reserved.</p>
+          <p>&copy; 2025 InstalMax. Wszelkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>

@@ -11,23 +11,23 @@ const Features: React.FC = () => {
   const features: FeatureItem[] = [
     {
       icon: "fas fa-clock",
-      title: "24/7 Emergency Service",
-      description: "Round-the-clock emergency repairs when you need them most",
+      title: "Serwis awaryjny 24/7",
+      description: "Całodobowe naprawy awaryjne, gdy najbardziej ich potrzebujesz",
     },
     {
       icon: "fas fa-certificate",
-      title: "Certified Technicians",
-      description: "Fully licensed and certified heating system professionals",
+      title: "Certyfikowani technicy",
+      description: "W pełni licencjonowani i certyfikowani specjaliści od systemów grzewczych",
     },
     {
       icon: "fas fa-money-bill-wave",
-      title: "Competitive Pricing",
-      description: "Fair, transparent pricing with no hidden fees",
+      title: "Konkurencyjne ceny",
+      description: "Uczciwe, przejrzyste ceny bez ukrytych opłat",
     },
     {
       icon: "fas fa-thumbs-up",
-      title: "Satisfaction Guarantee",
-      description: "100% satisfaction guarantee on all our work",
+      title: "Gwarancja satysfakcji",
+      description: "100% gwarancja satysfakcji na wszystkie nasze prace",
     },
   ];
 
