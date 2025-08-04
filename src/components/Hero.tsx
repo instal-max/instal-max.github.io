@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="hero-image">
           <div className="hero-graphic">
-            <i className="fas fa-cogs"></i>
+            <i className="fas fa-screwdriver-wrench"></i>
           </div>
         </div>
       </div>

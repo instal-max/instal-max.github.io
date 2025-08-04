@@ -23,7 +23,7 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: "fas fa-wrench",
+      icon: "fas fa-user-cog",
       title: "Naprawa Sterowników Wieluń",
       description:
         "Ekspercka diagnostyka i naprawa sterowników pieców, zapewniająca optymalną wydajność i efektywność energetyczną.",
