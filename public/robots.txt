@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://OTHER_USERNAME.github.io/instal-max/sitemap.xml
+Sitemap: https://instal-max.github.io/sitemap.xml

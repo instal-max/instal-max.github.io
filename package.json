@@ -2,7 +2,7 @@
   "name": "instal-max",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OTHER_USERNAME.github.io/instal-max",
+  "homepage": "https://instal-max.github.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
