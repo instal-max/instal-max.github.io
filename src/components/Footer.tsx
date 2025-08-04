@@ -23,32 +23,32 @@ const Footer: React.FC = () => {
               <i className="fas fa-fire"></i> InstalMax
             </h3>
             <p>
-              Twój zaufany partner w zakresie centralnego ogrzewania i
-              sterowników pieców. Jakość pracy, niezawodny serwis, konkurencyjne
-              ceny.
+              Twój zaufany partner w zakresie centralnego ogrzewania Wieluń, 
+              naprawy sterowników Wieluń i wymiany pieca Wieluń. Jakość pracy, 
+              niezawodny serwis, konkurencyjne ceny.
             </p>
           </div>
           <div className="footer-section">
-            <h4>Usługi</h4>
+            <h4>Usługi w Wieluniu</h4>
             <ul>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Montaż centralnego ogrzewania
+                  Centralne ogrzewanie Wieluń
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Naprawa sterowników pieców
+                  Naprawa sterowników Wieluń
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Konserwacja i serwis
+                  Wymiana pieca Wieluń
                 </button>
               </li>
               <li>
                 <button onClick={() => scrollToSection("services")}>
-                  Naprawy awaryjne
+                  Serwis grzewczy Wieluń
                 </button>
               </li>
             </ul>
@@ -62,9 +62,8 @@ const Footer: React.FC = () => {
               <li>
                 <i className="fas fa-envelope"></i> andrzejlyczko@gmail.com
               </li>
-              <li>
-                <i className="fas fa-map-marker-alt"></i> Rychłowice 24A,
-                <br /> 98-300 Wieluń
+                            <li>
+                <i className="fas fa-map-marker-alt"></i> Wieluń i okolice
               </li>
             </ul>
           </div>

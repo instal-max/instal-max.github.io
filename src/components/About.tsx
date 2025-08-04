@@ -7,24 +7,25 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>O firmie InstalMax</h2>
+            <h2>O firmie InstalMax - Wieluń</h2>
             <p>
               Dzięki ponad 30-letniemu doświadczeniu w branży grzewczej,
-              InstalMax ugruntował swoją pozycję jako zaufany dostawca usług
-              centralnego ogrzewania i sterowników pieców. Wnosimy wiedzę
-              specjalistyczną, niezawodność i zaangażowanie do każdego projektu.
+              InstalMax świadczy usługi centralnego ogrzewania w Wieluniu i okolicach. 
+              Jesteśmy zaufanym dostawcą usług montażu, naprawy sterowników i wymiany 
+              pieców w regionie wieluńskim. Wnosimy wiedzę specjalistyczną, 
+              niezawodność i zaangażowanie do każdego projektu.
             </p>
             <p>
-              Specjalizujemy się w rozwiązaniach grzewczych zarówno dla
-              nieruchomości mieszkalnych, jak i komercyjnych, od prostych napraw
-              po kompletne instalacje systemów. Zaangażowanie w jakość wykonania
-              i zadowolenie klientów uczyniło nas preferowanym wyborem w
-              zakresie usług grzewczych w regionie.
+              Specjalizujemy się w kompleksowych rozwiązaniach grzewczych dla 
+              mieszkańców Wielunia - od prostych napraw sterowników po kompletne 
+              instalacje centralnego ogrzewania i wymianę pieców. Nasze zaangażowanie 
+              w jakość wykonania i zadowolenie klientów uczyniło nas preferowanym 
+              wyborem w zakresie usług grzewczych w Wieluniu.
             </p>
             <div className="stats">
               <div className="stat">
                 <h3>500+</h3>
-                <p>Zrealizowanych projektów</p>
+                <p>Projektów w Wieluniu</p>
               </div>
               <div className="stat">
                 <h3>30+</h3>

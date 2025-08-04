@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1>Usługi eksperta w zakresie centralnego ogrzewania</h1>
+          <h1>Centralne Ogrzewanie Wieluń | Naprawa Sterowników | Wymiana Pieca</h1>
           <p>
-            Profesjonalny montaż, naprawa i konserwacja systemów centralnego
-            ogrzewania i sterowników pieców. Niezawodna usługa, której możesz
-            zaufać.
+            Profesjonalny montaż centralnego ogrzewania Wieluń, naprawa 
+            sterowników Wieluń i wymiana pieca Wieluń. 30+ lat doświadczenia, 
+            certyfikowani technicy, konkurencyjne ceny. Obsługujemy Wieluń i okolice.
           </p>
           <div className="hero-buttons">
             <a href="tel:+48668152243" className="btn btn-primary">

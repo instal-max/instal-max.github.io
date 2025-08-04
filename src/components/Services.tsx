@@ -12,38 +12,38 @@ const Services: React.FC = () => {
   const services: ServiceItem[] = [
     {
       icon: "fas fa-tools",
-      title: "Montaż centralnego ogrzewania",
+      title: "Centralne Ogrzewanie Wieluń",
       description:
-        "Kompletny montaż systemu centralnego ogrzewania z nowoczesnym, energooszczędnym sprzętem i profesjonalną instalacją.",
+        "Kompletny montaż systemu centralnego ogrzewania w Wieluniu z nowoczesnym, energooszczędnym sprzętem i profesjonalną instalacją.",
       features: [
-        "Montaż kotła",
+        "Montaż kotła Wieluń",
         "Systemy grzejnikowe",
-        "Ogrzewanie podłogowe",
+        "Ogrzewanie podłogowe Wieluń",
         "Konfiguracja termostatu",
       ],
     },
     {
       icon: "fas fa-wrench",
-      title: "Naprawa sterowników pieców",
+      title: "Naprawa Sterowników Wieluń",
       description:
-        "Ekspercka diagnostyka i naprawa sterowników pieców, zapewniająca optymalną wydajność i efektywność energetyczną.",
+        "Ekspercka diagnostyka i naprawa sterowników pieców w Wieluniu, zapewniająca optymalną wydajność i efektywność energetyczną.",
       features: [
-        "Diagnostyka sterowników",
+        "Diagnostyka sterowników Wieluń",
         "Naprawa płyt głównych",
         "Wymiana czujników",
         "Programowanie i kalibracja",
       ],
     },
     {
-      icon: "fas fa-shield-alt",
-      title: "Konserwacja i serwis",
+      icon: "fas fa-fire",
+      title: "Wymiana Pieca Wieluń",
       description:
-        "Regularne usługi konserwacyjne, które utrzymują Twój system grzewczy w sprawności i zapobiegają kosztownym awariom.",
+        "Profesjonalna wymiana pieca w Wieluniu, montaż nowoczesnych kotłów gazowych, elektrycznych i na paliwa stałe.",
       features: [
-        "Serwis coroczny",
-        "Naprawy awaryjne",
-        "Modernizacja systemów",
-        "Optymalizacja wydajności",
+        "Wymiana kotła gazowego",
+        "Montaż pieca elektrycznego",
+        "Kotły na paliwa stałe",
+        "Modernizacja systemu",
       ],
     },
   ];
@@ -52,10 +52,9 @@ const Services: React.FC = () => {
     <section id="services" className="services">
       <div className="container">
         <div className="section-header">
-          <h2>Nasze usługi</h2>
+          <h2>Nasze usługi w Wieluniu</h2>
           <p>
-            Kompleksowe rozwiązania grzewcze dla nieruchomości mieszkalnych i
-            komercyjnych
+            Kompleksowe rozwiązania grzewcze dla mieszkańców Wielunia i okolic
           </p>
         </div>
         <div className="services-grid">
